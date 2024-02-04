@@ -1,6 +1,5 @@
 # 3D printed parameterized juggling club optimized for low weight
 
-## Preface
 
 The club is modeled in Autodesk Fusion 360. It is parameterized meaning there is a list of parameters like core_length, body_wall_thickness, waves_number... that you can change and the model will adjust accordingly (at least that is the idea, some parameter combination are not sensible, but there sometimes there are errors even for sensible parameter combinations, I do not know if this is due to my poor modeling skills or bugs in Fusion).
 The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tried to give the parameters meaningful names. If something is not clear ask me or just change it and see what happens.
@@ -8,7 +7,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 ## Materials
 
 ### Knob, outer Top, Ring: 
-- varioshore TPU (https://colorfabb.com/de/varioshore-tpu-green)
+- varioshore TPU (https://colorfabb.com/de/varioshore-tpu-green) - this has a texture that is quite similar to Henrys tops/knobs
 
 ### inner Top
 - PLA - should change this to a material that resists higher temperatures
@@ -16,6 +15,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 ### Handle:
 - Nylon/PA12 (https://fiberlogy.com/de/filamente/nylon-pa12/)
 - PA is semiflex so it has some give but should be not so brittle that it breaks
+- I get a matte surface finish from this which feels very nice
 
 ### Body:
 - PP (https://www.3djake.de/fiberlogy/pp-light-green, https://www.3djake.de/formfutura/centaur-pp-natural, https://www.ppprint.de/produkt/p-filament-721-mint-green/), formfutura seems to have the best layer adhesion
@@ -29,7 +29,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 ## How I print
 
 ### Knob, outer Top, Ring:
-- layer height: .2 mm, line width: .4 mm, nozzle temperature: 240 C, build plate temperature: 60 C, print speed 60 mm/s, flow 57%, use print cooling
+- layer height: .2 mm, line width: .4 mm, nozzle temperature: 240 C, build plate temperature: 60 C, print speed 60 mm/s, flow 57%, use print cooling, 70% infill
 - .4 mm nozzle
 - use supports
 
@@ -38,6 +38,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 
 ### Handle:
 - layer height: .1, nozzle temperature: 270, build plate temperature: 85 C, print speed 60 mm/s, no print cooling
+- make shure to use a printer that can handle such temperatures!!!
 - use .6 mm nozzle
 - use Magigoo PA on your build plate
 - use brim for build plate adhesion
