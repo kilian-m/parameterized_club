@@ -21,7 +21,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 - PP (https://www.3djake.de/fiberlogy/pp-light-green, https://www.3djake.de/formfutura/centaur-pp-natural, https://www.ppprint.de/produkt/p-filament-721-mint-green/), formfutura seems to have the best layer adhesion
 - PP is semiflex so it does not break easily and it is rigid enough to be caught on the body (at least with the wave pattern)
 - PP also has very good layer adhesion
-- also tried PA12 -> lot stiffer, not shure if it breaks when dropped repeatedly
+- also tried PA12, this is a lot stiffer and feels better, it needs more rigorous durability testing though
 
 ### Carbon_adapter:
 - PP (probably does not matter)
@@ -93,7 +93,6 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 - most important issue: bodies reliably break when dropped from a high throw on the top with a slight angle - hope this is fixed in the latest version
 
 - try smaller clamps
-- test durability of PA12 body
 - use PETG for inner top
 - build device to precisely measure center of gravity and moment of inertia (I think the current design is a bit top heavy)
 
