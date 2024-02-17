@@ -92,10 +92,6 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop. I tr
 ## TODOs
 - most important issue: bodies reliably break when dropped from a high throw on the top with a slight angle - hope this is fixed in the latest version
 
-- try smaller clamps
-- use PETG for inner top
-- build device to precisely measure center of gravity and moment of inertia (I think the current design is a bit top heavy)
-
 <br>
 <br>
 This work is licensed under CC BY-NC-SA 4.0 
