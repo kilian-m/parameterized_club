@@ -1,4 +1,4 @@
 club_version    top_diameter    core_length center_diameter bulk_width  body_length_ratio   body_height bulk_height_ratio   bulk_position_ratio wave_amplitude  waves_number    core_diameter   body_wall_width handle_wall_width   clamp_diameter  handle_end_diameter knob_diameter   screw_diameter
 loop    45mm    500mm   28mm    75mm    26/50   core_length*body_length_ratio   .3  .38 1.5mm   15   10mm    .8mm    .8mm    13mm    20mm    35mm    3.5mm
-numbers    45mm    500mm   23mm    65mm    26/50   core_length*body_length_ratio   .3  .38 1.5mm   15   10mm    .8mm    .8mm    13mm    15mm    30mm    3.5mm
-properties_test 45mm    500mm   33mm    75mm    26/50   core_length*body_length_ratio   .3  .38 1.5mm   15   10mm    .8mm    .8mm    22mm    20mm    35mm    3.5mm
+numbers    35mm    500mm   23mm    60mm    26/50   core_length*body_length_ratio   .3  .38 1.5mm   15   10mm    .8mm    .8mm    13mm    15mm    30mm    3.5mm
+properties_test 45mm    500mm   28mm    75mm    26/50   core_length*body_length_ratio   .3  .38 1.5mm   15   10mm    .8mm    .8mm    13mm    22mm    35mm    3.5mm

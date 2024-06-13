@@ -10,7 +10,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop and i
 - varioshore TPU (https://colorfabb.com/de/varioshore-tpu-green) - this has a texture that is quite similar to Henrys tops/knobs
 
 ### inner Top
-- PETG
+- PCTG
 
 ### Handle:
 - Nylon/PA12 (https://fiberlogy.com/de/filamente/nylon-pa12/)
@@ -28,35 +28,35 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop and i
 ## How I print
 
 ### Knob, outer Top, Ring:
-- layer height: .2 mm, line width: .4 mm, nozzle temperature: 240 C, build plate temperature: 60 C, print speed 60 mm/s, flow 57%, use print cooling, 70% infill
+- layer height: .2 mm, line width: .4 mm, nozzle temperature: 220 C, build plate temperature: 40 C, print speed 30 mm/s, flow 57%, use print cooling, 70% infill
 - .4 mm nozzle
 - use supports
 
 ### inner Top
-- standard PETG settings
+- standard PCTG settings
 
 ### Handle:
-- layer height: .1, nozzle temperature: 270, build plate temperature: 85 C, print speed 60 mm/s, no print cooling
+- layer height: .1, nozzle temperature: 270, build plate temperature: 85 C, print speed 20 mm/s, no print cooling
 - make shure to use a printer that can handle such temperatures!!!
-- use .6 mm nozzle
+- use .4 mm nozzle
 - use Magigoo PA on your build plate
 - use thick brim for build plate adhesion (initial layer height .3 mm)
 - import 'Handle' and 'Handle_adapter' to your slicer
 - group models, center it with the top end facing down, set line width to .8 mm
 - slice and export G-code
-- set line width to .6 mm
+- set line width to .4 mm
 - slice in vase mode ('spiralize outer contour' in cura) and export G-code
 - in your favourite text editor copy together G-code from vase mode code (above 'Handle_adapter') and solid code (below bottom of 'Handle'), if you use relative steps this should work if you use absolute coordinates make shure to set the E distance to the last value of the solid G-code with the M92 command
 - print
 
 ### Body:
-- layer height: .3 mm, nozzle temperature: 240 C, build plate temperature: 0 C, print speed: 30 mm/s, print cooling depending on pp brand
-- use .6 mm nozzle
+- layer height: .3 mm, nozzle temperature: 230 C, build plate temperature: 30 C, print speed: 30 mm/s, print cooling depending on pp brand
+- use .4 mm nozzle
 - stick clear packing tape on your build plate, PP adheres to nothing else
 - do not use build plate adhesion structure like brim or skirt
 - import 'body' and 'body_adapter' to your slicer
 - group models, center it with the top end facing down
-- slice with .6 mm line width and export G-code
+- slice with .4 mm line width and export G-code
 - ungroup models, delete 'body_adapter'
 - slice in vase mode ('spiralize outer contour' in cura) with .8 mm line width and export G-code
 - in your favourite text editor copy together G-code from vase mode code (everywhere with a wall thickness of .8 in the model) and merged code (everywhere else), if you use relative steps this should work if you use absolute coordinates make shure to set the E distance to the last value of the deleted G-code with the M92 command
@@ -91,7 +91,7 @@ The current parameter set has the rough shape of a Henrys Pirouette / Loop and i
 
 ## TODOs
 - there is z-banding on the bottom half of the handle because of bed slinging, a semiflex material and a tall print with a small footprint. The only solution to this is probably using a core-xy or delta printer
-- if the club drops from a high throw on the top the body often break along the layer lines close to the top. a threading between the handle and the body might fix this
+
 
 
 <br>
